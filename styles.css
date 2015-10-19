@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #0499ff;
+  color: #999;
 }
 a:hover {
   color: #6633ff;
@@ -54,9 +54,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: linear-gradient(#0399ff, transparent), 
-              linear-gradient(0deg, #f7f5f0, transparent 20%), 
-              #0399ff url('images/portland.jpg') no-repeat top center ;
+  background: #0399ff url('images/portland.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -95,6 +93,7 @@ header .profile-image:hover {
   background: #fff;
   border-bottom: 4px solid #ccc;
   border-radius: 6px;
+  transition: all .5s;
 }
 .card:hover {
   border-color: #ff99ff;
@@ -126,7 +125,6 @@ footer {
 
 footer .copyright {
   top: -8px;
-  margin-right: 20px;
   font-size: .75em;
 }
 
@@ -147,8 +145,8 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .5;
-  transition: all .25s;
+  opacity: .4;
+  transition: all .5s;
 }
 a.twitter {
   background-image: url(images/twitter.svg);
@@ -170,8 +168,14 @@ a.social:hover {
 @media screen and (min-width: 720px) {
   
   .flex {
-      display: flex;
+      display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+      display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+      display: -ms-flexbox;      /* TWEENER - IE 10 */
+      display: -webkit-flex;
+      display: flex; 
       max-width: 1200px;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
   }
