@@ -39,8 +39,11 @@ a:hover {
   margin: 0 auto;
   padding: 0;
 }
+
 .nav .name {
-  display: none;
+    display: block;
+    margin-right: auto;
+    color: white;
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -168,13 +171,9 @@ a.social:hover {
 @media screen and (min-width: 720px) {
   
   .flex {
-      display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-      display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
       display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: -webkit-flex;
       display: flex; 
       max-width: 1200px;
-      -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
@@ -186,13 +185,9 @@ a.social:hover {
 
   .nav {
     max-width: 1200px;
+    padding: 0 30px;
   }
 
-  .nav .name {
-    display: block;
-    margin-right: auto;
-    color: white;
-  }
 
   main {
     padding-top: 20px;
