@@ -76,7 +76,7 @@ header .profile-image {
   max-width: 150px;
   height: 150px;
   border-radius: 100%;
-  border: 3px solid white;
+  border: 3px solid #DA3300;
   transition: all .5s;
 }
 header .profile-image:hover {
@@ -94,6 +94,19 @@ header .profile-image:hover {
   background-color: #780030;
   color: #C0C060;
 }
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  background-color: #B23E8F;
+
+}
+/*Gallery Styling*/
+img {
+  max-width: 100%;
+}
+
+/*End Gallery Styling */
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -105,7 +118,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #E5936D;
 }
 
 ul.skills {
@@ -171,6 +184,26 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+/* Page Portfolio */
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+#gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background-color: #983A52;
+  color: #C27D60;
+}
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #23102E;
 }
 
 /* Styles for larger screens */
