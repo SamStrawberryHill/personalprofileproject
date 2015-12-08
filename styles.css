@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'PT Sans Narrow','Roboto', sans-serif;
+  font-family: 'Lora', 'Roboto', sans-serif;
   color: #D84830;
   background: #F0C060;
 }
@@ -25,7 +25,18 @@ a:visited {
 }
 
 /* Section Styles */
-
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
 .main-nav {
   width: 100%;
   background: tomato;
@@ -58,7 +69,7 @@ a:visited {
   color: #AFC78F;
 }
 .nav a:visited {
-  color:484830;
+  color: #484830;
 }
 
 header {
@@ -204,6 +215,17 @@ a.social:hover {
   padding: 5%;
   font-size: 0.75em;
   color: #23102E;
+}
+/*About Page*/
+h3 {
+  margin: 0 0 1em 0;
+}
+/*Conact Page*/
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
 }
 
 /* Styles for larger screens */
