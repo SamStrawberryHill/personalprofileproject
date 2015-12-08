@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #F09048;
+  color: white;
 }
 a:hover {
   color: #480000;
@@ -32,10 +32,13 @@ nav ul {
 }
 nav li {
   display: inline-block;
+  color: white;
+
 }
 nav a {
   font-weight: 800;
   padding: 15px 10px;
+
 }
 .main-nav {
   width: 100%;
@@ -74,7 +77,7 @@ nav a {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/o-PHILADELPHIA-facebook.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -109,12 +112,13 @@ header .profile-image:hover {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
-  background-color: #B23E8F;
+  background-color: #tomato;
 
 }
 /*Gallery Styling*/
 img {
   max-width: 100%;
+
 }
 
 /*End Gallery Styling */
@@ -227,6 +231,7 @@ h3 {
   margin: 0;
   font-size: 0.9em;
 }
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
